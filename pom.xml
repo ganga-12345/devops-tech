@@ -27,6 +27,18 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+    <repository>
+      <id>nexusRepo</id>
+      <name>Releases</name>
+      <url>http://54.198.244.175:8081/repository/devops-tech-releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>nexusRepo</id>
+      <name>Snapshot</name>
+      <url>http://54.198.244.175:8081/repository/devops-tech-snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
 
   <build>
     <finalName>devops-tech</finalName>

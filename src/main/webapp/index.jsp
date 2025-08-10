@@ -1,5 +1,5 @@
 <html>
 <body>
-<h2><%= "Hello World!" %></h2>
+<h2><%= "today is sunday!" %></h2>
 </body>
 </html>
